@@ -6,5 +6,3 @@ class Solution:
             profit = max(profit, price - buy_price)
             buy_price = min(price, buy_price)
         return profit
-
-        
